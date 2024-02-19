@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import phoneImage from "../assets/images/fCMobile.png";
+import gps from "../assets/images/google-play.webp";
 
 const Hero = () => {
   return (
@@ -12,27 +13,30 @@ const Hero = () => {
       >
         <div className="w-100 mx-auto text-neutral-800 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
           <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div className="mt-12 lg:mt-0 z-10">
+            <div className="mt-12 lg:mt-0 z-10 ">
               <h1 className="mt-0 mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(0,0%,0%)]">
-                Re-engineering Agri-food <br />
-                <span className="text-primary">transformation</span>
+                The Food<span className="text-primary">Circle</span>
+                <br />
+                <span className="text-4xl">Eat to Save!</span>
               </h1>
               <p className="opacity-70 text-gray mb-12">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Temporibus, expedita iusto veniam atque, magni tempora mollitia
-                dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-                ab ipsum nisi dolorem modi. Quos?
+                FOODcircle seeks to accelerate Kenya’s net zero transition from
+                a linear to a circular food economy. FOODcircle is an integrated
+                application that offers multipronged solutions to achieve
+                household food security in low resource rural and peri-urban
+                settings.
               </p>
-              <button
-                type="button"
-                className="inline-block rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-200 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
-                data-te-ripple-init
-                data-te-ripple-color="light"
+              <a
+                className="mb-2 inline-block rounded  text-sm font-medium uppercase leading-normal"
+                href="#!"
               >
-                Download App
-              </button>
+                <img src={gps} alt="play store" className="h-20 w-40" />
+              </a>
             </div>
-            <div className="relative mb-12 lg:mb-0">
+            <div
+              className="relative mb-12 lg:mb-0 ounded "
+              // id="radius-shape-0"
+            >
               <div
                 id="radius-shape-1"
                 className="absolute rounded-full shadow-lg"
@@ -42,7 +46,11 @@ const Hero = () => {
                 className="absolute shadow-lg z-99"
               ></div>
               <div className="relative md:px-12 min-h-full w-full">
-                <img src={phoneImage} alt="" className="animate-bounce-slow" />
+                <img
+                  src={phoneImage}
+                  alt=""
+                  className="animate-bounce-slow mx-auto"
+                />
               </div>
             </div>
           </div>

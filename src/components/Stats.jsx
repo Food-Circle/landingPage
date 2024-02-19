@@ -1,53 +1,64 @@
 import React from "react";
 import dg from "../assets/images/deliveryGuy.jpg";
+import phoneImage from "../assets/images/fCMobile.png";
 
 const Stats = () => {
   return (
-    <section className="my-32 text-center lg:text-left" id="statSection">
+    <section
+      className="mb-32 bg-white text-center lg:text-left"
+      id="statSection"
+    >
       <div className="container mx-auto text-center lg:text-left xl:px-32">
-        <div className="grid items-center lg:grid-cols-2">
+        <div className="lg:grid items-center lg:grid-cols-2 sm:flex sm:flex-col">
           <div className="mb-12 lg:mb-0">
-            <div className="relative z-[1] block rounded-lg bg-primary bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
-              <h2 className="mb-6 text-4xl font-bold">
-                What is our Objective?
-              </h2>
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
+              <h2 className="mb-6 text-4xl font-bold">Client App</h2>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
-                We aim to reduce food loss and wastage in general via a digital
-                redistribution concept that is B2C, keeping track of food expiry
-                dates and food crowding.
+                The Client App of FOODCircle empowers users to easily discover
+                surplus food from local vendors, fostering a community-driven
+                approach to reducing food wastage by connecting individuals with
+                excess food to those in need.
               </p>
-
-              <div className="grid gap-x-6 md:grid-cols-3">
-                <div className="mb-12 md:mb-0">
-                  <h2 className="text-dark mb-4 text-3xl font-bold">10%</h2>
-                  <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
-                    Less Wastage
-                  </h5>
-                </div>
-
-                <div className="mb-12 md:mb-0">
-                  <h2 className="text-dark mb-4 text-3xl font-bold">80%</h2>
-                  <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
-                    Recycles
-                  </h5>
-                </div>
-
-                <div className="">
-                  <h2 className="text-dark mb-4 text-3xl font-bold">10</h2>
-                  <h5 className="mb-0 text-lg font-medium text-neutral-500 dark:text-neutral-300">
-                    Companies
-                  </h5>
-                </div>
-              </div>
             </div>
           </div>
 
           <div>
-            <img
-              src={dg}
-              className="w-full shadow-lg dark:shadow-black/20 "
-              alt=""
-            />
+            <img src={phoneImage} className="w-full " alt="" />
+          </div>
+        </div>
+
+        <div className="lg:grid items-center lg:grid-cols-2 sm:flex sm:flex-col-reverse">
+          <div>
+            <img src={phoneImage} className="w-full object-cover " alt="" />
+          </div>
+          <div className="mb-12 lg:mb-0">
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-ml-14 backdrop-blur-[30px]">
+              <h2 className="mb-6 text-4xl font-bold">Vendor App</h2>
+              <p className="mb-12 text-neutral-500 dark:text-neutral-300">
+                The Food Vendors App within FOODCircle enables participating
+                food establishments to efficiently upload surplus food
+                offerings, allowing them to contribute to the mission of
+                minimizing food waste while reaching a broader audience of
+                potential recipients.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:grid items-center lg:grid-cols-2 sm:flex sm:flex-col pb-20">
+          <div className="mb-12 lg:mb-0">
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
+              <h2 className="mb-6 text-4xl font-bold">Delivery App</h2>
+              <p className="mb-12 text-neutral-500 dark:text-neutral-300">
+                The Delivery App streamlines the process of facilitating food
+                rescue by connecting delivery personnel with available surplus
+                food, ensuring swift and reliable food redistribution efforts.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <img src={dg} className="w-full " alt="" />
           </div>
         </div>
       </div>

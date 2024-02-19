@@ -13,7 +13,7 @@ export default {
       dark: "#20222E",
       gray: "#303740",
       bluegray: "#C1CDD2",
-      primary: "#fec635",
+      primary: "#fce44d",
       secondary: "#CDC8E5",
     },
     extend: {
