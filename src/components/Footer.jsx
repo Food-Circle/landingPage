@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black flex flex-col justify-center py-10">
+      <div className="bg-black flex flex-col justify-center py-10 border-t border-t-white">
         <p className="text-white text-center mb-3">
           FoodCircle Copyright &copy; {new Date().getFullYear()}
         </p>
