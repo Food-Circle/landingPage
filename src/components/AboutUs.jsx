@@ -18,17 +18,19 @@ const AboutUs = () => {
                 <h2 className="mb-8 text-3xl font-bold">
                   About The FoodCircle
                 </h2>
-                <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
-                  FOODcircle is an integrated application that offers
-                  multipronged solutions to achieve household food security in
-                  low resource rural and peri-urban settings.
-                  {/* <h2 className="mb-2 text-xl font-bold ">Who are the Users?</h2> */}
-                  {/* <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0"> */}
-                  FOODcircle is meant for anyone and everyone who is into food
-                  wastage reduction. FOODCircle app is divided into 3
-                  application levels: client App, food vendors App and delivery
-                  App
-                </p>
+                <div className="w-full flex items-center justify-center">
+                  <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0 lg:w-1/2 md:w-4/5 sm:w-full">
+                    FOODcircle is an integrated application that offers
+                    multipronged solutions to achieve household food security in
+                    low resource rural and peri-urban settings.
+                    {/* <h2 className="mb-2 text-xl font-bold ">Who are the Users?</h2> */}
+                    {/* <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0"> */}
+                    FOODcircle is meant for anyone and everyone who is into food
+                    wastage reduction. FOODCircle app is divided into 3
+                    application levels: client App, food vendors App and
+                    delivery App
+                  </p>
+                </div>
                 <div className="mx-auto  grid lg:grid-cols-3 gap-1 ">
                   <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary">
                     <p className="mx-auto mb-4 flex flex-col items-center font-bold text-2xl gap- md:mx-0 md:mb-2 lg:mb-3">
