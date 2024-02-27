@@ -8,14 +8,14 @@ const Hero = () => {
     <div className="w-full overflow-hidden">
       <Header />
       <div
-        className="px-6 py-12 text-center md:px-12 lg:py-24 lg:text-left"
+        className="px-6 py-12 text-center md:px-12 lg:py-24 lg:text-left bg-primary"
         id="heroSection"
       >
         <div className="w-100 mx-auto text-neutral-800 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="mt-12 lg:mt-0 z-10 ">
               <h1 className="mt-0 mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl text-[hsl(0,0%,0%)]">
-                The Food<span className="text-primary">Circle</span>
+                The FoodCircle
                 <br />
                 <span className="text-4xl">Eat to Save!</span>
               </h1>

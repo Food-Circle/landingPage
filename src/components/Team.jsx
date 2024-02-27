@@ -1,4 +1,8 @@
 import React from "react";
+import bm from "../assets/images/bm.jpg";
+import ki from "../assets/images/ki.jpeg";
+import mm from "../assets/images/mm.jpeg";
+import pk from "../assets/images/pk.jpeg";
 
 const Team = () => {
   return (
@@ -12,8 +16,8 @@ const Team = () => {
           <div className="lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4">
             <div className="mb-12 lg:mb-0">
               <img
-                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] border border-white"
+                src={bm}
                 alt="avatar"
               />
               <h5 className="mb-4 text-lg font-bold text-white">
@@ -27,8 +31,8 @@ const Team = () => {
             </div>
             <div className="mb-12 lg:mb-0">
               <img
-                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).jpg"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] border border-white"
+                src={ki}
                 alt="avatar"
               />
               <h5 className="mb-4 text-lg font-bold text-white">
@@ -42,8 +46,8 @@ const Team = () => {
             </div>
             <div className="mb-12 md:mb-0">
               <img
-                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).jpg"
+                className="mx-auto mb-6 h-[150px] object-cover rounded-lg shadow-lg dark:shadow-black/20 w-[150px] border border-white"
+                src={mm}
                 alt="avatar"
               />
               <h5 className="mb-4 text-lg font-bold text-white">
@@ -57,8 +61,8 @@ const Team = () => {
             </div>
             <div className="mb-12 md:mb-0">
               <img
-                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] border border-white"
+                src={pk}
                 alt="avatar"
               />
               <h5 className="mb-4 text-lg font-bold text-white">

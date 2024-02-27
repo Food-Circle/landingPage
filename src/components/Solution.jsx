@@ -24,7 +24,7 @@ const Solution = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:gap-x-12 sm:gap-2">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-x-12 sm:gap-2">
             <div className="mb-12 lg:mb-0">
               <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.09),0_10px_20px_-2px_rgba(0,0,0,0.07)] dark:bg-neutral-700">
                 <div className="flex justify-center">
@@ -59,7 +59,7 @@ const Solution = () => {
               </div>
             </div>
 
-            <div className="mb-12 lg:mb-0">
+            {/* <div className="mb-12 lg:mb-0">
               <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.09),0_10px_20px_-2px_rgba(0,0,0,0.07)] dark:bg-neutral-700">
                 <div className="flex justify-center">
                   <div className="-mt-8 inline-block rounded-full bg-dark p-4 text-primary shadow-lg">
@@ -74,7 +74,7 @@ const Solution = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="">
               <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.09),0_10px_20px_-2px_rgba(0,0,0,0.07)] dark:bg-neutral-700">
                 <div className="flex justify-center">

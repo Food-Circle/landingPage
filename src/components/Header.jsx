@@ -5,7 +5,7 @@ import logo from "../assets/images/yellow.png";
 const Header = () => {
   return (
     <nav
-      className="relative flex w-full items-center justify-between bg-white py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30  lg:flex-wrap lg:justify-start"
+      className="relative flex w-full items-center justify-between bg-primary py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30  lg:flex-wrap lg:justify-start"
       data-te-navbar-ref
     >
       <div className="flex w-full flex-wrap items-center justify-between px-6">
