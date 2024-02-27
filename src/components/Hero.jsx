@@ -45,6 +45,10 @@ const Hero = () => {
                 id="radius-shape-2"
                 className="absolute shadow-lg z-99"
               ></div>
+              <div
+                id="radius-shape-3"
+                className="absolute shadow-lg z-99"
+              ></div>
               <div className="relative md:px-12 min-h-full w-full">
                 <img
                   src={phoneImage}

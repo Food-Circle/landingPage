@@ -42,6 +42,17 @@
   overflow-y: block; */
 }
 
+#radius-shape-3 {
+  border-radius: 28% 62% 40% 37% / 70% 33% 67% 30%;
+  bottom: 200px;
+  left: -700px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(#eef6bc, #fce44d);
+  /* overflow-x: hidden;
+  overflow-y: block; */
+}
+
 @media (min-width: 992px) {
   .rotate-lg-6 {
     transform: rotate(6deg);
