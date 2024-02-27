@@ -11,11 +11,11 @@ const AboutUs = () => {
       id="aboutUsSection"
     >
       <div className="container mt-2 mx-auto px-6">
-        <section className="mt-32">
+        <section className="mt-20 pb-20">
           <div className="container mx-auto text-center lg:text-left xl:px-32">
             <div className="flex grid items-center lg:grid-cols-3">
               <div className="mb-t lg:mb-0 lg:col-span-3 text-center">
-                <h2 className="mb-8 text-3xl font-bold">
+                <h2 className="mb-8 text-5xl font-bold">
                   About The FoodCircle
                 </h2>
                 <div className="w-full flex items-center justify-center">
@@ -32,7 +32,7 @@ const AboutUs = () => {
                   </p>
                 </div>
                 <div className="mx-auto  grid lg:grid-cols-3 gap-1 ">
-                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary">
+                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary hover:scale-105 transition durution-700 ease-in-out hover:border border-white">
                     <p className="mx-auto mb-4 flex flex-col items-center font-bold text-2xl gap- md:mx-0 md:mb-2 lg:mb-3">
                       <FaRegCircleUser className="text-5xl" />
                       <span className="text-white">Client App</span>
@@ -46,7 +46,7 @@ const AboutUs = () => {
                       Download Client App
                     </button>
                   </div>
-                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary">
+                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary hover:scale-105 transition durution-700 ease-in-out hover:border border-white">
                     <p className="mx-auto mb-4 flex flex-col items-center font-bold text-2xl gap- md:mx-0 md:mb-2 lg:mb-3">
                       <TfiBriefcase className="text-5xl" />
                       <span className="text-white">Vendor App</span>
@@ -60,7 +60,7 @@ const AboutUs = () => {
                       Download Vendor App
                     </button>
                   </div>
-                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary">
+                  <div className=" rounded-lg mb-3 bg-dark px-3 py-4 text-primary hover:scale-105 transition durution-700 ease-in-out hover:border border-white">
                     <p className="mx-auto mb-4 flex flex-col items-center font-bold text-2xl gap- md:mx-0 md:mb-2 lg:mb-3">
                       <RiMapPinUserLine className="text-5xl" />
                       <span className="text-white">Delivery App</span>

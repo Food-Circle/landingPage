@@ -3,12 +3,12 @@ import gps from "../assets/images/google-play.webp";
 
 const CTA = () => {
   return (
-    <div className="container my-10 mx-auto px-6">
-      <section className="mb-32 text-center">
+    <div className="mt-10 mx-auto px-6 bg-primary">
+      <section className=" text-center">
         <div className="px-6 py-12 md:px-12">
           <h2 className="mt-12 text-5xl font-bold tracking-tight">
             Take A Step <br />
-            <span className="text-primary dark:text-primary-400">
+            <span className="text-white dark:text-primary-400 mt-4">
               Join Us Today
             </span>
           </h2>
