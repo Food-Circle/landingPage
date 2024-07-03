@@ -8,8 +8,8 @@ import {
 
 const Solution = () => {
   return (
-    <div>
-      <div className="container my-24 mx-auto px-6">
+    <div className="bg-primary px-20 py-5">
+      <div className="container my-24 mx-auto px-6 ">
         <section className="mb-32 text-center mx-4">
           <div className="container mb-24">
             <h2 className="mb-6 text-3xl font-bold">
@@ -59,22 +59,6 @@ const Solution = () => {
               </div>
             </div>
 
-            {/* <div className="mb-12 lg:mb-0">
-              <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.09),0_10px_20px_-2px_rgba(0,0,0,0.07)] dark:bg-neutral-700">
-                <div className="flex justify-center">
-                  <div className="-mt-8 inline-block rounded-full bg-dark p-4 text-primary shadow-lg">
-                    <FaPeopleCarryBox className="text-2xl" />
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h5 className="mb-4 text-lg font-semibold">Food Rescue</h5>
-                  <p>
-                    Foodrescue is a Marketplace that links food donors with
-                    reall-time hunger-spots
-                  </p>
-                </div>
-              </div>
-            </div> */}
             <div className="">
               <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.09),0_10px_20px_-2px_rgba(0,0,0,0.07)] dark:bg-neutral-700">
                 <div className="flex justify-center">

@@ -11,7 +11,7 @@ const Stats = () => {
       <div className="container mx-auto text-center lg:text-left xl:px-32">
         <div className="lg:grid items-center lg:grid-cols-2 sm:flex sm:flex-col">
           <div className="mb-12 lg:mb-0">
-            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12  dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
               <h2 className="mb-6 text-4xl font-bold">Client App</h2>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
                 The Client App of FOODCircle empowers users to easily discover
@@ -32,7 +32,7 @@ const Stats = () => {
             <img src={phoneImage} className="w-full object-cover " alt="" />
           </div>
           <div className="mb-12 lg:mb-0">
-            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-ml-14 backdrop-blur-[30px]">
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12  dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-ml-14 backdrop-blur-[30px]">
               <h2 className="mb-6 text-4xl font-bold">Vendor App</h2>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
                 The Food Vendors App within FOODCircle enables participating
@@ -47,7 +47,7 @@ const Stats = () => {
 
         <div className="lg:grid items-center lg:grid-cols-2 sm:flex sm:flex-col pb-20">
           <div className="mb-12 lg:mb-0">
-            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
+            <div className="relative z-[1] block rounded-lg bg-white bg-opacity-70 px-6 py-12  dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
               <h2 className="mb-6 text-4xl font-bold">Delivery App</h2>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
                 The Delivery App streamlines the process of facilitating food
@@ -58,7 +58,7 @@ const Stats = () => {
           </div>
 
           <div>
-            <img src={dg} className="w-full " alt="" />
+            <img src={phoneImage} className="w-full " alt="" />
           </div>
         </div>
       </div>

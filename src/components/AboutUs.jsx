@@ -7,7 +7,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 const AboutUs = () => {
   return (
     <div
-      className="bg-primary bg-opacity-100 w-full py-4 pb-20 relative"
+      className=" bg-opacity-100 w-full py-4 pb-20 relative"
       id="aboutUsSection"
     >
       <div className="container mt-2 mx-auto px-6">
